@@ -11,7 +11,7 @@ class weatherfiler(absfilter):
         self.__cities = self.__config.getValue("weather","city")
 
     def msgprocess(self,msg):
-        if u'天气' in msg:
+        if u'问天气' in msg:
             cities = self.__cities.split(',')
             text = ''
             for city in cities:
