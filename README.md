@@ -1,3 +1,3 @@
 # wechat-bot
 wechat-bot
-used for automatically reply messages!
+used for automatically replying messages!
